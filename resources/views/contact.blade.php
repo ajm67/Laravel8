@@ -81,18 +81,29 @@
 
     <div class="content">
         <div class="title m-b-md">
-            Aidan's Laravel
+            Contact Us
         </div>
         <br>
         <div class="links">
-            This is my homepage. Please click the "About Me Homepage" link below to find more about me.
-        </div>
-        <br>
-        <div class="links">
-            <a href="https://strawberry-sundae-44236.herokuapp.com/about">About Me Homepage</a>
-            <a href="https://strawberry-sundae-44236.herokuapp.com/contact">Contact</a>
+            Please use the below form to submit your contact information. Thank you!
+
+            <form action="/contact" method="post">
+                {{ csrf_field() }}
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input name="email" type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="body">Message</label>
+                    <textarea name="body" class="form-control" id="body" rows="3"></textarea>
+                    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+                </div>
+            </form>
 
 
-        </div>
+
+
+
 </body>
 </html>

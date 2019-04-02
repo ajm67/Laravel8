@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Aidan's Laravel</title>
+    <title>ABOUT ME</title>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -85,14 +85,25 @@
         </div>
         <br>
         <div class="links">
-            This is my homepage. Please click the "About Me Homepage" link below to find more about me.
+            <p>I am writing this text in the 2nd page of my Laravel website.
+
+                My name is Aidan McGourty and I am 23 years old. Laravel and Heroku are both impressive programs that can be leveraged to create secure and easily revised websites.
+
+                I love to cook and my favorite food is chicken.
+
+                I am from a small town called Long Valley.
+
+                Please find information on them here: https://en.wikipedia.org/wiki/Long_Valley,_New_Jersey
+
+            </p>
         </div>
         <br>
         <div class="links">
-            <a href="https://strawberry-sundae-44236.herokuapp.com/about">About Me Homepage</a>
-            <a href="https://strawberry-sundae-44236.herokuapp.com/contact">Contact</a>
-
+            <a href="https://strawberry-sundae-44236.herokuapp.com/">home</a>
+            <a href="">link</a>
 
         </div>
+    </div>
+</div>
 </body>
 </html>
